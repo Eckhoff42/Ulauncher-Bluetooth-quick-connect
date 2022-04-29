@@ -13,10 +13,10 @@ from ulauncher.api.shared.action.HideWindowAction import HideWindowAction
 logger = logging.getLogger(__name__)
 
 
-class DemoExtension(Extension):
+class BluetoothQC(Extension):
 
     def __init__(self):
-        super(DemoExtension, self).__init__()
+        super(BluetoothQC, self).__init__()
         self.subscribe(KeywordQueryEvent, KeywordQueryEventListener())
         self.subscribe(ItemEnterEvent, ItemEnterEventListener())
 
@@ -84,4 +84,4 @@ class ItemEnterEventListener(EventListener):
 
 
 if __name__ == '__main__':
-    DemoExtension().run()
+    BluetoothQC().run()
