@@ -12,6 +12,7 @@
       "id": "kw",
       "type": "keyword",
       "name": "Bluetooth manager",
+      "description": "Quickly connect to predefined bluetooth devices",
       "default_value": "bt"
     },
     {
